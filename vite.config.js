@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command, mode }) => {
   // Base path configuration for different deployment targets
   const base = process.env.GITHUB_ACTIONS 
-    ? '/Birthday-wish/'  // GitHub Pages repository name
+    ? '/Birthday-Muskan-By-Vantika/'  // GitHub Pages repository name
     : './'               // Vercel and local development
 
   return {
